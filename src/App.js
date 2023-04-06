@@ -12,7 +12,7 @@ function App() {
   };
 
   const counterReset = () => {
-    console.log("reiniciar");
+    setClicksNum(0);
   };
 
   return (
